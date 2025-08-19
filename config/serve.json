@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://qnm1.sharepoint.com/sites/Assignment/_layouts/workbench.aspx",
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://qnm1.sharepoint.com/sites/Assignment/SitePages/Contact-Us.aspx",
+      "customActions": {
+        "625dca0c-96b7-4601-b179-f7bffcbdb3d2": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "footerText": "Copyright 2001-2025 Accenture. All rights reserved. Accenture Confidential. For internal use only.",
+            "contactUrl": "https://qnm1.sharepoint.com/sites/Assignment/SitePages/Contact-Us.aspx"
+          }
+        }
+      }
+    },
+    "portalBanner": {
+      "pageUrl": "https://qnm1.sharepoint.com/sites/Assignment/SitePages/Contact-Us.aspx",
+      "customActions": {
+        "625dca0c-96b7-4601-b179-f7bffcbdb3d2": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "footerText": "Copyright 2001-2025 Accenture. All rights reserved. Accenture Confidential. For internal use only.",
+            "contactUrl": "https://qnm1.sharepoint.com/sites/Assignment/SitePages/Contact-Us.aspx"
+          }
+        }
+      }
+    }
+  }
+}

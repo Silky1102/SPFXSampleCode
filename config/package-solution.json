@@ -1,0 +1,56 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "employee-management-client-side-solution",
+    "id": "10610ca4-ae6c-4182-b54d-edc5d29c7e87",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "EmployeeManagement description"
+      },
+      "longDescription": {
+        "default": "EmployeeManagement description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "employee-management Feature",
+        "description": "The feature that activates elements of the employee-management solution.",
+        "id": "4602f2cc-ed9f-4c5c-9342-32b3b649ec61",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      }, 
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Mail.Send"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/employee-management.sppkg"
+  }
+}

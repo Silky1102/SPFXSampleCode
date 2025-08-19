@@ -1,0 +1,82 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "employee-info-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/employeeInfo/EmployeeInfoWebPart.js",
+          "manifest": "./src/webparts/employeeInfo/EmployeeInfoWebPart.manifest.json"
+        }
+      ]
+    },
+    "employee-modal-input-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/employeeModalInput/EmployeeModalInputWebPart.js",
+          "manifest": "./src/webparts/employeeModalInput/EmployeeModalInputWebPart.manifest.json"
+        }
+      ]
+    },
+    "document-crud-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/documentCrud/DocumentCrudWebPart.js",
+          "manifest": "./src/webparts/documentCrud/DocumentCrudWebPart.manifest.json"
+        }
+      ]
+    },
+    "portal-banner-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/portalBanner/PortalBannerApplicationCustomizer.js",
+          "manifest": "./src/extensions/portalBanner/PortalBannerApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "user-profile-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/userProfileWebpart/UserProfileWebpartWebPart.js",
+          "manifest": "./src/webparts/userProfileWebpart/UserProfileWebpartWebPart.manifest.json"
+        }
+      ]
+    },
+    "taxanomy-employee-example-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/taxanomyEmployeeExample/TaxanomyEmployeeExampleWebPart.js",
+          "manifest": "./src/webparts/taxanomyEmployeeExample/TaxanomyEmployeeExampleWebPart.manifest.json"
+        }
+      ]
+    },
+    "document-library-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/documentLibraryWebpart/DocumentLibraryWebpartWebPart.js",
+          "manifest": "./src/webparts/documentLibraryWebpart/DocumentLibraryWebpartWebPart.manifest.json"
+        }
+      ]
+    },
+    "tabbed-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tabbedWebpart/TabbedWebpartWebPart.js",
+          "manifest": "./src/webparts/tabbedWebpart/TabbedWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EmployeeInfoWebPartStrings": "lib/webparts/employeeInfo/loc/{locale}.js",
+    "EmployeeModalInputWebPartStrings": "lib/webparts/employeeModalInput/loc/{locale}.js",
+    "DocumentCrudWebPartStrings": "lib/webparts/documentCrud/loc/{locale}.js",
+    "PortalBannerApplicationCustomizerStrings": "lib/extensions/portalBanner/loc/{locale}.js",
+    "UserProfileWebpartWebPartStrings": "lib/webparts/userProfileWebpart/loc/{locale}.js",
+    "TaxanomyEmployeeExampleWebPartStrings": "lib/webparts/taxanomyEmployeeExample/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "DocumentLibraryWebpartWebPartStrings": "lib/webparts/documentLibraryWebpart/loc/{locale}.js",
+    "TabbedWebpartWebPartStrings": "lib/webparts/tabbedWebpart/loc/{locale}.js"
+  }
+}
